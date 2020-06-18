@@ -87,3 +87,32 @@ img {vertical-align: middle;}
     .prev, .next,.text {font-size: 11px}
 }
 
+#header {
+  display: block;
+  background-color: #0088cc;
+  color: white;
+  margin-top: 75px;
+}
+
+#header-dp {
+  display: contents;
+  width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 70%;
+}
+
+#header-dp img{
+  border: none;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#header-details {
+  padding:  20px;
+}
+
+#header-details p{
+  font-weight: 300;
+}
