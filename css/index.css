@@ -1,10 +1,18 @@
-<<<<<<< HEAD
+
 body {
     margin-left: 5% !important;
     margin-right: 5% !important;
-=======
+}
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
+
+
+.jumbotron {
+    height: 300px;
+    padding-top: 0px !important;
+    background-color: #bc7945 !important;
+}
+
 .mySlides {display: none}
 img {vertical-align: middle;}
 
@@ -64,27 +72,18 @@ img {vertical-align: middle;}
   bottom: 8px;
   width: 100%;
   text-align: center;
->>>>>>> 87d07df170199e180fc0a0ac72320c12f9a3df13
 }
-
-.jumbotron {
-    background-image: url("../images/backgroundimage1.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+.carousel-inner {
+    height: 300px;
 }
-
-
-<<<<<<< HEAD
-@media only screen and (max-width: 320){
-    .jumbotron {
-        background-image: url("../images/backgroundimage1small.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+.carousel-inner .item {
+    padding-left: 25% !important;
 }
-=======
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media only screen and (max-width: 320px) {
+    .jumbotron {
+        height: 150px;
+    }
+    .prev, .next,.text {font-size: 11px}
 }
->>>>>>> 87d07df170199e180fc0a0ac72320c12f9a3df13
+
