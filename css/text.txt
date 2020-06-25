@@ -1,0 +1,21 @@
+<div class="container col-lg-12 ng-scope">    
+	  <div class="col-lg-12 price" style="margin-top:1em;margin-bottom:1em;"> 
+             <!-- Least Gallery -->
+        <section id="least" style="margin-top:2em;">
+		
+            
+            <!-- Least Gallery: Fullscreen Preview -->
+            <div class="least-preview" style="background-color:transparent;"></div>
+            
+            <!-- Least Gallery: Thumbnails -->
+            <ul class="least-gallery" style="padding-top:20px;">
+                <li>
+                    <a href="src/media/big/4.jpg">
+                        <img src="src/media/thumb/4.jpg" alt="Alt Image Text">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    
+    </div>
+</div>

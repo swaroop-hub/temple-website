@@ -14,6 +14,13 @@ body {font-family: Verdana, sans-serif; margin:0}
     background-image: linear-gradient(to right, #bc7945,#f7c97e);
 }
 
+#photoHeading {
+    height: 300px;
+    padding-top: 0px !important;
+    padding-left: 25px !important;
+    background-image: linear-gradient(to right, #bc7945,#f7c97e);
+}
+
 #header{
     height: 200px;
     margin-top: 30px !important;
@@ -128,4 +135,19 @@ img {vertical-align: middle;}
 
 #header-details p{
   font-weight: 300;
+}
+
+#contact {
+  margin-top: 5% !important;
+  background-image: linear-gradient(to right, #bc7945,#ff8f3a);
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.well {
+  background-image: linear-gradient(to right, #bc7945,#ff8f3a) !important;  
 }
