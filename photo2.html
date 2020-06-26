@@ -18,39 +18,54 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="jumbotron text-center" id="header">
-      <div class="row">
-          <div class="col-sm-3"> 
-              <div class="thumbnail" id="header-dp">
-                  <img src="./images/design1.png" alt="temple image"></img>
-              </div>
-          </div>
-          <div class="col-sm-6">
-              <div className="container-fluid" id="header-details">
-                  <h2>Temple Name.</h2>
-              </div>
-          </div>
-          <div class="col-sm-3"> 
-                  <div class="thumbnail" id="header-dp">
-                      <img src="./images/design1.png" alt="temple image"></img>
-                  </div>
-              </div>
-      </div>
-      
-    </div>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
+    <nav class="navbar navbar-fixed-top" id="bar">
+      <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Temple Name</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="index.html">Logo</a>
         </div>
-        <ul class="nav navbar-nav">
-          <li ><a href="index.html">Home</a></li>
-          <li class="active"><a href="photo2.html">Photo Gallery</a></li>
-          <li><a href="donators.html">Donators</a></li>
-          <li><a href="#">History</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="photo2.html">Photo Gallery</a></li>
+            <li><a href="donators.html">Donators</a></li>
+            <li><a href="#">History</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <div class="jumbotron text-center" id="header">
+      <div class="row">
+        <div class="col-sm-3"> 
+          <div class="thumbnail" id="header-dp">
+              <img src="./images/design1.png" alt="temple image" ></img>
+           </div>
+      </div>
+      <div class="col-sm-6">
+          <div className="container-fluid" id="header-details">
+              <h2>Temple Name.</h2>
+          </div>
+      </div>
+      <div class="col-sm-3"> 
+        <div class="thumbnail" id="header-dp">
+           <img src="./images/design1.png" alt="temple image"></img>
+        </div>
+    </div>
+      </div>
+      <div class="row"> 
+        <div class="col-md-12">
+          <!--Space for adding just random photo-->
+          <picture>
+            <source media="(min-width: 400px)" srcset="./images/backgroundimage1.jpg">
+            <img src="./images/backgroundimage1small.jpg">
+          </picture>
+        </div>
+      </div>
+  </div>
     <div class="container-fluid text-center bg-grey">
         <div class="well well-lg text-center"><h2>Photo Gallery</h2></div>
         <div class="row" >
